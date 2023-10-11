@@ -4,11 +4,10 @@ import seaborn as sns
 import matplotlib.pyplot as plt  
 
 from sklearn.linear_model import LinearRegression  # Modelo de 
-model = LinearRegression(
+model = LinearRegression()
 from sklearn.model_selection import train_test_split  
 from sklearn.metrics import r2_score  
 
-!git clone https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com/Ronaldolvf/projetos.git
 
 df_price_23 = pd.read_csv('/content/projetos/house_price_model_2.csv', sep=',')
 
