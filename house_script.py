@@ -62,4 +62,3 @@ def proj_price(a: np.array):
     return
 
 proj_price(np.array([ baths,  bedrooms, Area_in_Marla, Farm_House, Flat,  House,  Lower_Portion,  Penthouse,Upper_Portion]))
-
